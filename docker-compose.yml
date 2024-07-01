@@ -2,7 +2,7 @@ services:
   mysql:
     image: postgres:13-alpine
     ports:
-      - '5432:5432'
+      - '4108:4108'
     volumes:
       - ./data:/var/lib/postgresql
     environment:
